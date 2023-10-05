@@ -3,7 +3,7 @@ const path = require("path");
 
 module.exports = defineConfig({
     transpileDependencies: true,
-    outputDir: "./../public/",
+    outputDir: "./public/",
     assetsDir: "assets/",
     chainWebpack: config => {
         config
