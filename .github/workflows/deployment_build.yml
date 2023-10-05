@@ -44,3 +44,5 @@ jobs:
             **/scripts/**
             **/tests/**
             **/docker/**
+            **/vendor/**
+            **/*.php
