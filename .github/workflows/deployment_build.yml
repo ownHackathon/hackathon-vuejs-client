@@ -39,6 +39,7 @@ jobs:
             **/config/migrations/**
             **/node_modules/**
             **/client/**
+            **/src/**
             **/database/**
             **/scripts/**
             **/tests/**
