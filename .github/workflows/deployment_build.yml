@@ -46,3 +46,10 @@ jobs:
             **/docker/**
             **/vendor/**
             **/*.php
+            **/*.md
+            **/*.xml
+            **/*.neon
+            **/*.json
+            **/*.yml
+            **/*.lock
+            **/LICENSE
