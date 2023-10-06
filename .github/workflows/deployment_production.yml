@@ -13,10 +13,10 @@ jobs:
       - name: Get latest code
         uses: actions/checkout@v2
 
-      - name: Use Node.js 19
+      - name: Use Node.js 20
         uses: actions/setup-node@v2
         with:
-          node-version: '19'
+          node-version: '20'
 
       - name: npm install
         run: npm install
@@ -37,11 +37,24 @@ jobs:
             **/.git*/**
             **/bin/**
             **/tests/**
-            **/config/autoload/**
-            **/config/migrations/**
             **/node_modules/**
-            **/client/**
+            **/src/**
             **/database/**
             **/scripts/**
             **/tests/**
             **/docker/**
+            **/vendor/**
+            **/*.php
+            **/*.md
+            **/*.xml
+            **/*.neon
+            **/*.json
+            **/*.yml
+            **/*.lock
+            **/LICENSE
+            **/public/.htaccess
+            **/public/favicon.ico
+            **/public/robots.txt
+            **/config/**
+            **/public/api/**
+            **/*.js
