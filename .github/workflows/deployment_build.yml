@@ -35,10 +35,7 @@ jobs:
             **/.git*/**
             **/bin/**
             **/tests/**
-            **/config/autoload/**
-            **/config/migrations/**
             **/node_modules/**
-            **/client/**
             **/src/**
             **/database/**
             **/scripts/**
@@ -53,3 +50,8 @@ jobs:
             **/*.yml
             **/*.lock
             **/LICENSE
+            **/public/.htaccess
+            **/public/favicon.ico
+            **/public/robots.txt
+            **/config/**
+            **//public/api/**
