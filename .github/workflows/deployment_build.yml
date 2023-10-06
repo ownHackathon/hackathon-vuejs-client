@@ -54,4 +54,5 @@ jobs:
             **/public/favicon.ico
             **/public/robots.txt
             **/config/**
-            **//public/api/**
+            **/public/api/**
+            **/*.js
