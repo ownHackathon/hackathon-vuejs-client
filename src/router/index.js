@@ -133,9 +133,21 @@ const routes = [
     ]
   },
   {
+    path: "/black-discord",
+    name: "black-discord", beforeEnter() {
+      location.href = 'https://discord.gg/VjrfCFKRgR';
+    },
+  },
+  {
     path: "/discord",
     name: "discord", beforeEnter() {
-      location.href = 'https://discord.gg/VjrfCFKRgR';
+      location.href = 'https://discord.gg/uzqB4YmdTy';
+    },
+  },
+  {
+    path: "/license",
+    name: "license", beforeEnter() {
+      location.href = 'https://github.com/ownHackathon/hackathon-api/blob/master/LICENSE';
     },
   },
   {
