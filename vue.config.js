@@ -5,13 +5,6 @@ module.exports = defineConfig({
     transpileDependencies: true,
     outputDir: "./public/",
     assetsDir: "assets/",
-  devServer: {
-    proxy: {
-      '/favicon.ico': {
-        target: 'http://localhost/'
-      }
-    }
-  },
     chainWebpack: config => {
         config
             .entry("app")
