@@ -56,4 +56,4 @@ jobs:
             **/public/robots.txt
             **/config/**
             **/public/api/**
-            **/*.js
+            *.js
