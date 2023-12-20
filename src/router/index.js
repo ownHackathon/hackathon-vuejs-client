@@ -174,7 +174,7 @@ router.beforeEach(async (to, from) => {
   if (to.meta.requiresAuth) {
     if (!userStore.user) {
       await axios
-          .get('/api/user/me')
+          .get('/api/me')
           .then((response) => {
             if (response.status === 200 && response.data.uuid !== undefined) {
               userStore.setUser(response.data);
