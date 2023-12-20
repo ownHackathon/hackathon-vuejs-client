@@ -10,7 +10,7 @@ export default function useUserService() {
     }
 
     await axios
-        .get('/api/me')
+        .get('/api/user/me')
         .then((response) => {
           if (response.status === 200 && response.data.uuid !== undefined) {
             user.setUser(response.data);
